@@ -17,8 +17,8 @@ int main (){
 	// GPIO_INITIALIZATION();
 
 	PS_ptr = PS_init ;
-	MA_ptr = high_Pressure_State ;
-	AM_ptr = alarm_Off_State ;
+	MA_ptr = Normal_Pressure_State ;
+	AM_ptr = Turn_Off_Alarm ;
 
 	while (1)
 	{

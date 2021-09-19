@@ -13,11 +13,11 @@ void Delay(int nCount)
 	for(; nCount != 0; nCount--);
 }
 
-int get_Pressure_Val(){
+int Get_Pressure_Val(){
 	return (GPIOA_IDR & 0xFF);
 }
 
-void set_Alarm_Actuator(int i){
+void Set_Alarm_Actuator(int i){
 	if (i == 1){
 		SET_BIT(GPIOA_ODR,13);
 	}

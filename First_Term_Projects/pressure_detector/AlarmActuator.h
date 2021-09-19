@@ -9,7 +9,7 @@
 #define ALARMACTUATOR_H_
 
 #include "driver.h"
-void startAlarm();
-void stopAlarm();
+void Start_Alarm();
+void Stop_Alarm();
 
 #endif /* ALARMACTUATOR_H_ */

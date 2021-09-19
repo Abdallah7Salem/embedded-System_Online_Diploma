@@ -29,8 +29,8 @@
 
 
 void Delay(int nCount);
-int getPressureVal();
-void set_Alarm_Actuator(int i);
+int Get_Pressure_Val();
+void Set_Alarm_Actuator(int i);
 void GPIO_INITIALIZATION ();
 
 

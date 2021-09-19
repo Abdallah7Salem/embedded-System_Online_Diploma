@@ -12,18 +12,12 @@
 #include "driver.h"
 
 //Declaration of function of AM
-void high_Pressure_Detect();
-void alarm_Off_State();
-void alarm_On_State();
+void High_Pressure_Detected();
+void Turn_Off_Alarm();
+void Turn_On_Alarm();
 
-//see alarm actuator functions
-extern void start_Alarm();
-extern void stop_Alarm();
-
-/*pointer to function take
- * nothing return void .
- * pointer is defined in the .c file
- */
+extern void Start_Alarm();
+extern void Stop_Alarm();
 extern void (*AM_ptr)();
 
 #endif /* ALARMMONITOR_H_ */

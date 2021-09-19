@@ -8,14 +8,8 @@
 #ifndef PRESSURE_SENSOR_H_
 #define PRESSURE_SENSOR_H_
 
-// init pressure sensor
 void PS_init();
-
-// reading state of pressure sensor
-void reading_State();
-
-/* pointer to function
- * define in .c file */
+void Reading_State();
 extern void (*PS_ptr)();
 
 #endif /* PRESSURE_SENSOR_H_ */
