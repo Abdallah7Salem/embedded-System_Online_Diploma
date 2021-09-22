@@ -114,7 +114,7 @@ int main (void)
 		}
 		case 11:
 		{
-			break;
+			return 0;
 		}
 
 		} // switch
