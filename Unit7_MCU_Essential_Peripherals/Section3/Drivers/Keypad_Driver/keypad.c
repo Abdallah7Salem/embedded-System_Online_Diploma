@@ -96,7 +96,7 @@ char Keypad_getkey(){
 			// Read PIN Pressed
 			if (MCAL_GPIO_ReadPin(KEYPAD_PORT, Keypad_Row[j]) == 0)
 			{
-				while(MCAL_GPIO_ReadPin(KEYPAD_PORT, Keypad_Row[j]));  // single pressing
+				while(MCAL_GPIO_ReadPin(KEYPAD_PORT, Keypad_Row[j]) == 0);  // single pressing
 				switch(i){
 					case (0):
 						if (j == 0) return '7';
